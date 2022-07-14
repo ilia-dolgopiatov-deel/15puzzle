@@ -1,0 +1,19 @@
+.moves {
+  position: absolute;
+  width: 100%;
+  transform: translateY(25px);
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  justify-content: center;
+}
+
+.solvable {
+  background-color: rgb(112 249 112 / 42%);
+  border-color: green;
+}
+
+.unsolvable {
+  background-color: rgb(249 112 112 / 42%);
+  border-color: grredeen;
+}
